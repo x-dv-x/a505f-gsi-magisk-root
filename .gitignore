@@ -1,0 +1,26 @@
+# ---- Large / binary / copyrighted: never commit ----
+# Samsung stock firmware (multi-GB, redistribution-restricted)
+firmware/
+extracted/
+patched/
+# Magisk APK + extracted native binaries (fetched from the device at runtime)
+magisk_apk/
+# Any loose device images
+*.img
+*.img.lz4
+*.tar
+*.tar.md5
+*.zip
+*.lz4
+
+# ---- Tooling / env ----
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# ---- Editor / OS ----
+.DS_Store
+*.swp
+.idea/
+.vscode/
