@@ -1,14 +1,13 @@
 {
-  "name": "sma50f-root",
+  "name": "a505f-gsi-magisk-root",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Scripts and notes for rooting a Samsung Galaxy A50 (SM-A505F) running a LineageOS GSI with Magisk, from Linux via Heimdall.",
+  "license": "MIT",
+  "author": "x-dv-x",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-dv-x/a505f-gsi-magisk-root.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "samfirm": "^0.2.0"
   }
